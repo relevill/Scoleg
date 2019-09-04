@@ -1,5 +1,4 @@
-﻿
-using System.Configuration;
+﻿using System.Configuration;
 
 namespace AutomatizacionScoleg.Utilidades
 {
@@ -15,6 +14,10 @@ namespace AutomatizacionScoleg.Utilidades
         //Establecer valores de inicio de sesión
         public const string Usuario = "19.403.866-6";
         public const string Password = "34567890";
+
+        //Establecer string de conexión a base de datos desde app.config.
+        public static string CadenaConexionBD = ConfigurationManager.ConnectionStrings["QA"].ConnectionString;
+
         #endregion
     }
 }

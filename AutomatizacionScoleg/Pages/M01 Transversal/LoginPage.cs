@@ -3,6 +3,7 @@ using OpenQA.Selenium;
 using AutomatizacionScoleg.Utilidades;
 using AutomatizacionScoleg.Utilidades.Pages;
 using SeleniumExtras.WaitHelpers;
+using System;
 
 namespace AutomatizacionScoleg.Pages.M01_Transversal
 {
@@ -33,8 +34,6 @@ namespace AutomatizacionScoleg.Pages.M01_Transversal
         [FindsBy(How = How.Id, Using = "btn-aceptar-modal-cerrar-session")]
         public IWebElement btnConfirmarCerrarSesion;
 
-        [FindsBy(How = How.Id, Using = "navbarSupportedContent")]
-        public IWebElement menuPrincipal;
         #endregion
 
         /// <summary>
@@ -43,7 +42,7 @@ namespace AutomatizacionScoleg.Pages.M01_Transversal
         /// <returns><c>true</c> página cargada <c>false</c> página no cargada </returns>
         public bool ValidarDespliegueLogin()
         {
-            System.Threading.Thread.Sleep(1000);
+            System.Threading.Thread.Sleep(2000);
             return IsElementDisplayed(txtRutUsuario);
         }
 
@@ -69,10 +68,10 @@ namespace AutomatizacionScoleg.Pages.M01_Transversal
         /// Verificar despliegue página principal
         /// </summary>
         /// <returns><c>true</c> página cargada <c>false</c> página no cargada </returns>
-        public bool ValidarDesplieguePaginaPrincipal()
+        public void ValidarDesplieguePaginaPrincipal()
         {
-            return IsElementDisplayed(menuPrincipal);
-
+            WaitAndClickElement(btnCerrarSesion);
+            WaitAndClickElement(btnConfirmarCerrarSesion);
         }
 
         /// <summary>
@@ -80,7 +79,22 @@ namespace AutomatizacionScoleg.Pages.M01_Transversal
         /// </summary>
         public void PulsarBotonCerrarSesion()
         {
-            WaitAndClickElement(btnCerrarSesion);
+            string RutUsuario = ParametrosEjecucion.Usuario;
+            string Password = ParametrosEjecucion.Password;
+
+            if (GetBrowserUrl() == ParametrosEjecucion.RutaDelSitio + "/")
+            {
+                System.Threading.Thread.Sleep(2000);
+                ClearAndSendKeys(txtRutUsuario, RutUsuario);
+                ClearAndSendKeys(txtPassword, Password);
+                WaitAndClickElement(btnLogin);
+                WaitAndClickElement(btnCerrarSesion);
+            }
+            else
+            {
+                WaitAndClickElement(btnCerrarSesion);
+            }
+
         }
 
         /// <summary>

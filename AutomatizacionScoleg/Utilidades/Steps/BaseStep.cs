@@ -32,8 +32,8 @@ namespace AutomatizacionScoleg.Utilidades.Steps
 
             try
             {
-                string usuario = ParametrosEjecucion.Usuario;
-                string password = ParametrosEjecucion.Password;
+                string RutUsuario = ParametrosEjecucion.Usuario;
+                string Password = ParametrosEjecucion.Password;
 
                 if (PropiedadDriver.GetDriver != null)
                 {
@@ -43,26 +43,18 @@ namespace AutomatizacionScoleg.Utilidades.Steps
                     {
                         {
                             PropiedadDriver.GetDriver.Manage().Window.Maximize();
-
                             PropiedadDriver.GetDriver.Navigate().GoToUrl(ParametrosEjecucion.RutaDelSitio);
                         }
                     }
                     else
                     {
                         PropiedadDriver.GetDriver.Manage().Window.Maximize();
-
                         PropiedadDriver.GetDriver.Navigate().GoToUrl(ParametrosEjecucion.RutaDelSitio);
-
                         LoginPage elementosLogin = new LoginPage();
-
                         System.Threading.Thread.Sleep(2000);
-
-                        elementosLogin.txtRutUsuario.SendKeys(usuario);
-
-                        elementosLogin.txtPassword.SendKeys(password);
-
+                        elementosLogin.txtRutUsuario.SendKeys(RutUsuario);
+                        elementosLogin.txtPassword.SendKeys(Password);
                         elementosLogin.btnLogin.Click();
-
                         System.Threading.Thread.Sleep(2000);
 
                         if (PropiedadDriver.GetDriver.Url != ParametrosEjecucion.RutaDelSitio + "/Login/Login/Home")
@@ -70,7 +62,6 @@ namespace AutomatizacionScoleg.Utilidades.Steps
                             throw new ExcepcionPrueba("Error al iniciar sesión en la aplicación");
                         }
                     }
-
                 }
             }
             catch (Exception)
@@ -286,7 +277,7 @@ namespace AutomatizacionScoleg.Utilidades.Steps
                             break;
 
                     }
-                    string screenShotPath = TakesScreenshot(PropiedadDriver.GetDriver, ScenarioStepContext.Current.StepInfo.Text);
+                    string screenShotPath = TakesScreenshot(PropiedadDriver.GetDriver, ("Fallo en Feature " + FeatureContext.Current.FeatureInfo.Title));
                     scenario.AddScreenCaptureFromPath(screenShotPath);
                 }
                 //Pending Status            
@@ -332,29 +323,6 @@ namespace AutomatizacionScoleg.Utilidades.Steps
             {
                 throw new Exception("El reporte no se ha guardado");
             }
-        }
-
-        public static void IniciarSesion()
-        {
-            string usuario = ParametrosEjecucion.Usuario;
-            string password = ParametrosEjecucion.Password;
-
-            PropiedadDriver.GetDriver.Manage().Window.Maximize();
-
-            PropiedadDriver.GetDriver.Navigate().GoToUrl(ParametrosEjecucion.RutaDelSitio);
-
-            LoginPage elementosLogin = new LoginPage();
-
-            System.Threading.Thread.Sleep(2000);
-
-            elementosLogin.txtRutUsuario.SendKeys(usuario);
-
-            elementosLogin.txtPassword.SendKeys(password);
-
-            elementosLogin.btnLogin.Click();
-
-            System.Threading.Thread.Sleep(2000);
-
         }
         #endregion
     }

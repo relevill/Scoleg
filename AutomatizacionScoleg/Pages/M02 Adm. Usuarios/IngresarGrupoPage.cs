@@ -29,8 +29,8 @@ namespace AutomatizacionScoleg.Pages.M02_Adm._Usuarios
         [FindsBy(How = How.Id, Using = "btn-cerrar-modal-mensaje")]
         public IWebElement btnCerrarConfirmacion;
 
-        [FindsBy(How = How.ClassName, Using = "dataTables_filter")]
-        public IWebElement inputBuscar;
+        [FindsBy(How = How.XPath, Using = "//*[@id='example_filter']/label/input")]
+        public IWebElement tblFilterGrupo;
 
         #endregion
 
@@ -90,12 +90,12 @@ namespace AutomatizacionScoleg.Pages.M02_Adm._Usuarios
         }
 
         /// <summary>
-        /// Verificar despliegue página principal
+        /// Verificar creación de grupo de usuario
         /// </summary>
         /// <returns><c>true</c> página cargada <c>false</c> página no cargada </returns>
-        public bool ValidarCreacionRegistroGrupoUsuarios(string Descripcion)
+        public bool ValidarCreacionRegistroGrupoUsuarios()
         {
-            return IsElementDisplayed(inputBuscar);
+            return IsElementDisplayed(tblFilterGrupo);
 
         }
 

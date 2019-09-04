@@ -1,11 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\NUnit3TestAdapter.3.13.0\build\net35\NUnit3TestAdapter.props" Condition="Exists('..\packages\NUnit3TestAdapter.3.13.0\build\net35\NUnit3TestAdapter.props')" />
+  <Import Project="..\packages\NUnit.3.12.0\build\NUnit.props" Condition="Exists('..\packages\NUnit.3.12.0\build\NUnit.props')" />
   <Import Project="..\packages\SpecFlow.Tools.MsBuild.Generation.2.3.2\build\SpecFlow.Tools.MsBuild.Generation.props" Condition="Exists('..\packages\SpecFlow.Tools.MsBuild.Generation.2.3.2\build\SpecFlow.Tools.MsBuild.Generation.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F061566E-DB61-44AD-A449-094251D16302}</ProjectGuid>
+    <ProjectGuid>{71BFB2EA-6F0C-46DA-9192-65ECD3B38A9F}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>AutomatizacionScoleg</RootNamespace>
     <AssemblyName>AutomatizacionScoleg</AssemblyName>
@@ -63,8 +65,8 @@
     <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.12.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="nunit.framework, Version=3.0.5797.27534, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
-      <HintPath>..\packages\NUnit.3.0.0\lib\net45\nunit.framework.dll</HintPath>
+    <Reference Include="nunit.framework, Version=3.12.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnit.3.12.0\lib\net45\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="RazorEngine, Version=3.10.0.0, Culture=neutral, PublicKeyToken=9ee697374c7e744a, processorArchitecture=MSIL">
       <HintPath>..\packages\RazorEngine.3.10.0\lib\net45\RazorEngine.dll</HintPath>
@@ -126,11 +128,11 @@
     <Reference Include="TechTalk.SpecFlow, Version=2.3.2.0, Culture=neutral, PublicKeyToken=0778194805d6db41, processorArchitecture=MSIL">
       <HintPath>..\packages\SpecFlow.2.3.2\lib\net45\TechTalk.SpecFlow.dll</HintPath>
     </Reference>
-    <Reference Include="WebDriver, Version=3.11.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Selenium.WebDriver.3.11.2\lib\net45\WebDriver.dll</HintPath>
+    <Reference Include="WebDriver, Version=3.141.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.WebDriver.3.141.0\lib\net45\WebDriver.dll</HintPath>
     </Reference>
-    <Reference Include="WebDriver.Support, Version=3.11.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Selenium.Support.3.11.2\lib\net45\WebDriver.Support.dll</HintPath>
+    <Reference Include="WebDriver.Support, Version=3.141.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.Support.3.141.0\lib\net45\WebDriver.Support.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -144,34 +146,21 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>M02 Adm. Usuarios_S01 Grupo.feature</DependentUpon>
     </Compile>
-    <Compile Include="Features\M02 Adm. Usuarios\M02 Adm. Usuarios_S02 Perfiles.feature.cs">
+    <Compile Include="Features\M02 Adm. Usuarios\SpecFlowFeature1.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>M02 Adm. Usuarios_S02 Perfiles.feature</DependentUpon>
-    </Compile>
-    <Compile Include="LS_SZ_2DataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>LS_SZ_2DataSet.xsd</DependentUpon>
+      <DependentUpon>SpecFlowFeature1.feature</DependentUpon>
     </Compile>
     <Compile Include="Pages\M01 Transversal\LoginPage.cs" />
-    <Compile Include="Pages\M02 Adm. Usuarios\EditarGrupoPage.cs" />
-    <Compile Include="Pages\M02 Adm. Usuarios\S2 Perfil\EditarPerfilPage.cs" />
-    <Compile Include="Pages\M02 Adm. Usuarios\S2 Perfil\EliminarPerfilPage.cs" />
-    <Compile Include="Pages\M02 Adm. Usuarios\IngresarGrupoPage.cs" />
-    <Compile Include="Pages\M02 Adm. Usuarios\S2 Perfil\IngresarPerfilPage.cs" />
-    <Compile Include="Pages\M02 Adm. Usuarios\S2 Perfil\ListarPerfilPage.cs" />
-    <Compile Include="Pages\M02 Adm. Usuarios\S2 Perfil\VerDetallePerfilPage.cs" />
+    <Compile Include="Pages\M02 Adm. Usuarios\S01 Grupo\EditarGrupoPage.cs" />
+    <Compile Include="Pages\M02 Adm. Usuarios\S01 Grupo\EliminarGrupoPage.cs" />
+    <Compile Include="Pages\M02 Adm. Usuarios\S01 Grupo\IngresarGrupoPage.cs" />
+    <Compile Include="Pages\M02 Adm. Usuarios\S01 Grupo\ListarGrupoPage.cs" />
+    <Compile Include="Pages\M02 Adm. Usuarios\S01 Grupo\VerDetalleGrupoPage.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Properties\Settings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTimeSharedInput>True</DesignTimeSharedInput>
-      <DependentUpon>Settings.settings</DependentUpon>
-    </Compile>
     <Compile Include="Steps\M01 Transversal\M01Transversal_S01SesionSteps.cs" />
     <Compile Include="Steps\M02 Adm. Usuarios\M02Adm_Usuarios_S01GrupoSteps.cs" />
-    <Compile Include="Steps\M02 Adm. Usuarios\M02Adm_Usuarios_S02PerfilSteps.cs" />
     <Compile Include="Utilidades\ExcepcionPrueba.cs" />
     <Compile Include="Utilidades\Pages\BasePage.cs" />
     <Compile Include="Utilidades\Pages\IBasePage.cs" />
@@ -182,43 +171,83 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Features\M01 Transversal\M01_Transversal.xlsx" />
+    <None Include="bin\Debug\AutomatizacionScoleg.exe.config" />
+    <None Include="bin\Debug\nunit_random_seed.tmp" />
+    <None Include="bin\Debug\ScolegBDD.exe.config" />
     <None Include="Features\M01 Transversal\M01 Transversal_S01 Sesion.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>M01 Transversal_S01 Sesion.feature.cs</LastGenOutput>
     </None>
+    <None Include="Features\M01 Transversal\M01_Transversal.xlsx" />
     <None Include="Features\M02 Adm. Usuarios\M02 Adm. Usuarios_S01 Grupo.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>M02 Adm. Usuarios_S01 Grupo.feature.cs</LastGenOutput>
     </None>
-    <None Include="Features\M02 Adm. Usuarios\M02 Adm. Usuarios_S02 Perfiles.feature">
-      <Generator>SpecFlowSingleFileGenerator</Generator>
-      <LastGenOutput>M02 Adm. Usuarios_S02 Perfiles.feature.cs</LastGenOutput>
-    </None>
+    <None Include="Features\M02 Adm. Usuarios\M02 Adm. Usuarios_S02 Perfil.feature" />
     <None Include="Features\M02 Adm. Usuarios\M02_Adm.Usuarios.xlsx" />
-    <None Include="LS_SZ_2DataSet.xsc">
-      <DependentUpon>LS_SZ_2DataSet.xsd</DependentUpon>
-    </None>
-    <None Include="LS_SZ_2DataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>LS_SZ_2DataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="LS_SZ_2DataSet.xss">
-      <DependentUpon>LS_SZ_2DataSet.xsd</DependentUpon>
+    <None Include="Features\M02 Adm. Usuarios\SpecFlowFeature1.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>SpecFlowFeature1.feature.cs</LastGenOutput>
     </None>
     <None Include="packages.config" />
-    <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\Debug\AutomatizacionScoleg.exe" />
+    <Content Include="bin\Debug\AutomatizacionScoleg.pdb" />
+    <Content Include="bin\Debug\chromedriver.exe" />
+    <Content Include="bin\Debug\ClosedXML.dll" />
+    <Content Include="bin\Debug\DnsClient.dll" />
+    <Content Include="bin\Debug\DnsClient.xml" />
+    <Content Include="bin\Debug\DocumentFormat.OpenXml.dll" />
+    <Content Include="bin\Debug\ExtentReports.dll" />
+    <Content Include="bin\Debug\Gherkin.dll" />
+    <Content Include="bin\Debug\ImpromptuInterface.dll" />
+    <Content Include="bin\Debug\ImpromptuInterface.xml" />
+    <Content Include="bin\Debug\MongoDB.Bson.dll" />
+    <Content Include="bin\Debug\MongoDB.Bson.xml" />
+    <Content Include="bin\Debug\MongoDB.Driver.Core.dll" />
+    <Content Include="bin\Debug\MongoDB.Driver.Core.xml" />
+    <Content Include="bin\Debug\MongoDB.Driver.dll" />
+    <Content Include="bin\Debug\MongoDB.Driver.xml" />
+    <Content Include="bin\Debug\Newtonsoft.Json.dll" />
+    <Content Include="bin\Debug\Newtonsoft.Json.pdb" />
+    <Content Include="bin\Debug\Newtonsoft.Json.xml" />
+    <Content Include="bin\Debug\nunit.engine.api.dll" />
+    <Content Include="bin\Debug\nunit.engine.dll" />
+    <Content Include="bin\Debug\nunit.framework.dll" />
+    <Content Include="bin\Debug\nunit.framework.pdb" />
+    <Content Include="bin\Debug\nunit.framework.xml" />
+    <Content Include="bin\Debug\NUnit3.TestAdapter.dll" />
+    <Content Include="bin\Debug\NUnit3.TestAdapter.pdb" />
+    <Content Include="bin\Debug\RazorEngine.dll" />
+    <Content Include="bin\Debug\RazorEngine.xml" />
+    <Content Include="bin\Debug\ScolegBDD.exe" />
+    <Content Include="bin\Debug\ScolegBDD.pdb" />
+    <Content Include="bin\Debug\SeleniumExtras.PageObjects.dll" />
+    <Content Include="bin\Debug\SeleniumExtras.WaitHelpers.dll" />
+    <Content Include="bin\Debug\SpecFlow.Assist.Dynamic.dll" />
+    <Content Include="bin\Debug\SpecFlow.Plus.Excel.dll" />
+    <Content Include="bin\Debug\SpecFlow.Plus.Excel.SpecFlowPlugin.dll" />
+    <Content Include="bin\Debug\System.Buffers.dll" />
+    <Content Include="bin\Debug\System.Configuration.ConfigurationManager.dll" />
+    <Content Include="bin\Debug\System.Security.AccessControl.dll" />
+    <Content Include="bin\Debug\System.Security.Permissions.dll" />
+    <Content Include="bin\Debug\System.Security.Principal.Windows.dll" />
+    <Content Include="bin\Debug\System.Web.Razor.dll" />
+    <Content Include="bin\Debug\System.Web.Razor.xml" />
+    <Content Include="bin\Debug\TechTalk.SpecFlow.dll" />
+    <Content Include="bin\Debug\WebDriver.dll" />
+    <Content Include="bin\Debug\WebDriver.Support.dll" />
+    <Content Include="bin\Debug\WebDriver.Support.xml" />
+    <Content Include="bin\Debug\WebDriver.xml" />
+    <Content Include="Reporte\Capturas defectos\02.09.2019.12.17.35_Fallo en Feature M02 Adm. Usuarios_S01 Grupo.Jpeg" />
+    <Content Include="Reporte\Capturas defectos\02.09.2019.12.33.12_Fallo en Feature M02 Adm. Usuarios_S01 Grupo.Jpeg" />
+    <Content Include="Reporte\Capturas defectos\29.08.2019.21.40.40_Fallo en Feature M02 Adm. Usuarios_S01 Grupo.Jpeg" />
     <Content Include="Reporte\dashboard.html" />
     <Content Include="Reporte\index.html" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Reporte\Capturas defectos\" />
+    <Folder Include="bin\Release\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\SpecFlow.2.3.2\build\SpecFlow.targets" Condition="Exists('..\packages\SpecFlow.2.3.2\build\SpecFlow.targets')" />
@@ -229,8 +258,10 @@
     <Error Condition="!Exists('..\packages\SpecFlow.2.3.2\build\SpecFlow.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SpecFlow.2.3.2\build\SpecFlow.targets'))" />
     <Error Condition="!Exists('..\packages\SpecFlow.Tools.MsBuild.Generation.2.3.2\build\SpecFlow.Tools.MsBuild.Generation.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SpecFlow.Tools.MsBuild.Generation.2.3.2\build\SpecFlow.Tools.MsBuild.Generation.props'))" />
     <Error Condition="!Exists('..\packages\SpecFlow.Tools.MsBuild.Generation.2.3.2\build\SpecFlow.Tools.MsBuild.Generation.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SpecFlow.Tools.MsBuild.Generation.2.3.2\build\SpecFlow.Tools.MsBuild.Generation.targets'))" />
-    <Error Condition="!Exists('..\packages\Selenium.WebDriver.ChromeDriver.75.0.3770.140\build\Selenium.WebDriver.ChromeDriver.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Selenium.WebDriver.ChromeDriver.75.0.3770.140\build\Selenium.WebDriver.ChromeDriver.targets'))" />
+    <Error Condition="!Exists('..\packages\NUnit.3.12.0\build\NUnit.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NUnit.3.12.0\build\NUnit.props'))" />
+    <Error Condition="!Exists('..\packages\NUnit3TestAdapter.3.13.0\build\net35\NUnit3TestAdapter.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NUnit3TestAdapter.3.13.0\build\net35\NUnit3TestAdapter.props'))" />
+    <Error Condition="!Exists('..\packages\Selenium.WebDriver.ChromeDriver.76.0.3809.12600\build\Selenium.WebDriver.ChromeDriver.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Selenium.WebDriver.ChromeDriver.76.0.3809.12600\build\Selenium.WebDriver.ChromeDriver.targets'))" />
   </Target>
   <Import Project="..\packages\SpecFlow.Tools.MsBuild.Generation.2.3.2\build\SpecFlow.Tools.MsBuild.Generation.targets" Condition="Exists('..\packages\SpecFlow.Tools.MsBuild.Generation.2.3.2\build\SpecFlow.Tools.MsBuild.Generation.targets')" />
-  <Import Project="..\packages\Selenium.WebDriver.ChromeDriver.75.0.3770.140\build\Selenium.WebDriver.ChromeDriver.targets" Condition="Exists('..\packages\Selenium.WebDriver.ChromeDriver.75.0.3770.140\build\Selenium.WebDriver.ChromeDriver.targets')" />
+  <Import Project="..\packages\Selenium.WebDriver.ChromeDriver.76.0.3809.12600\build\Selenium.WebDriver.ChromeDriver.targets" Condition="Exists('..\packages\Selenium.WebDriver.ChromeDriver.76.0.3809.12600\build\Selenium.WebDriver.ChromeDriver.targets')" />
 </Project>

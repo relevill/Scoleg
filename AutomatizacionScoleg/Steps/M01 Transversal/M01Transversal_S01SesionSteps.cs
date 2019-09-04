@@ -5,6 +5,7 @@ using TechTalk.SpecFlow;
 
 namespace AutomatizacionScoleg.Steps.M01_Transversal
 {
+    [Scope(Feature = "M01 Transversal_S01 Sesion")]
     [Binding]
     public class M01Transversal_S01SesionSteps
     {
@@ -17,6 +18,7 @@ namespace AutomatizacionScoleg.Steps.M01_Transversal
             loginPage = new LoginPage();
         }
 
+        #region CP01_Iniciar Sesión
         [Given(@"El sistema despliega formulario de inicio de sesión")]
         public void ValidarDesplieguePaginaLogin()
         {
@@ -39,8 +41,11 @@ namespace AutomatizacionScoleg.Steps.M01_Transversal
         public void DesplegarPaginaPrincipal()
         {
             loginPage.ValidarDesplieguePaginaPrincipal();
-        }
 
+        }
+        #endregion
+
+        #region CP02_Cerrar Sesión
         [Given(@"El usuario pulsa el botón Cerrar Sesión")]
         public void PulsarElBotonCerrarSesion()
         {
@@ -48,17 +53,17 @@ namespace AutomatizacionScoleg.Steps.M01_Transversal
         }
 
         [When(@"El usuario confirma el cierre de sesión")]
-        public void ConfirmarCierreDeSesion()
+        public void CuandoElUsuarioConfirmaElCierreDeSesion()
         {
             loginPage.PulsarBotonConfirmarCerrarSesion();
         }
+
 
         [Then(@"El sistema despliega formulario de inicio de sesión")]
         public void DesplegarFormularioInicioSesion()
         {
             Assert.IsTrue(loginPage.ValidarDespliegueLogin(), "Página de inicio de sesión no ha sido cargada");
         }
-
-
+        #endregion
     }
 }

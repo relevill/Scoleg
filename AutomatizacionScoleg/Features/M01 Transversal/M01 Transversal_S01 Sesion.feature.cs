@@ -68,13 +68,13 @@ namespace AutomatizacionScoleg.Features.M01Transversal
         public virtual void CP02_CerrarSesion()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("CP02_Cerrar Sesión", ((string[])(null)));
-#line 17
+#line 16
 this.ScenarioSetup(scenarioInfo);
-#line 18
+#line 17
  testRunner.Given("El usuario pulsa el botón Cerrar Sesión", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Dado ");
-#line 19
+#line 18
  testRunner.When("El usuario confirma el cierre de sesión", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Cuando ");
-#line 20
+#line 19
  testRunner.Then("El sistema despliega formulario de inicio de sesión", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Entonces ");
 #line hidden
             this.ScenarioCleanup();
@@ -82,30 +82,22 @@ this.ScenarioSetup(scenarioInfo);
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("CP01_Iniciar Sesión")]
-        [NUnit.Framework.CategoryAttribute("mytag")]
         [NUnit.Framework.TestCaseAttribute("19.403.866-6", "34567890", new string[] {
-                "source:M01_Transversal.xlsx:M03-0101",
-                "0501",
-                "INICIAR",
-                "SESION"}, Category="source:M01_Transversal.xlsx:M03-0101,0501,INICIAR,SESION")]
+                "source:M01_Transversal.xlsx:INICIAR.SESION"}, Category="source:M01_Transversal.xlsx:INICIAR.SESION")]
+        [NUnit.Framework.TestCaseAttribute("23.423.423-4", "12345678", new string[] {
+                "source:M01_Transversal.xlsx:INICIAR.SESION"}, Category="source:M01_Transversal.xlsx:INICIAR.SESION")]
         public virtual void CP01_IniciarSesion(string rutUsuario, string password, string[] exampleTags)
         {
-            string[] @__tags = new string[] {
-                    "mytag"};
-            if ((exampleTags != null))
-            {
-                @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
-            }
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("CP01_Iniciar Sesión", @__tags);
-#line 7
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("CP01_Iniciar Sesión", exampleTags);
+#line 6
 this.ScenarioSetup(scenarioInfo);
-#line 8
+#line 7
  testRunner.Given("El sistema despliega formulario de inicio de sesión", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Dado ");
-#line 9
+#line 8
  testRunner.When(string.Format("El usuario ingresa el Rut {0} y Password {1}", rutUsuario, password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Cuando ");
-#line 10
+#line 9
  testRunner.And("El usuario pulsa el botón Log In", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Y ");
-#line 11
+#line 10
  testRunner.Then("El sistema despliega página principal del sitio Legal Partner", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Entonces ");
 #line hidden
             this.ScenarioCleanup();
@@ -114,4 +106,3 @@ this.ScenarioSetup(scenarioInfo);
 }
 #pragma warning restore
 #endregion
-
