@@ -1,0 +1,159 @@
+C:\ScolegBDD\ScolegBDD\ScolegBDD\bin\Debug\ScolegBDD.exe.config
+C:\ScolegBDD\ScolegBDD\ScolegBDD\bin\Debug\ScolegBDD.exe
+C:\ScolegBDD\ScolegBDD\ScolegBDD\bin\Debug\ScolegBDD.pdb
+C:\ScolegBDD\ScolegBDD\ScolegBDD\bin\Debug\Newtonsoft.Json.dll
+C:\ScolegBDD\ScolegBDD\ScolegBDD\bin\Debug\nunit.framework.dll
+C:\ScolegBDD\ScolegBDD\ScolegBDD\bin\Debug\SeleniumExtras.PageObjects.dll
+C:\ScolegBDD\ScolegBDD\ScolegBDD\bin\Debug\SeleniumExtras.WaitHelpers.dll
+C:\ScolegBDD\ScolegBDD\ScolegBDD\bin\Debug\TechTalk.SpecFlow.dll
+C:\ScolegBDD\ScolegBDD\ScolegBDD\bin\Debug\WebDriver.dll
+C:\ScolegBDD\ScolegBDD\ScolegBDD\bin\Debug\Newtonsoft.Json.xml
+C:\ScolegBDD\ScolegBDD\ScolegBDD\bin\Debug\nunit.framework.xml
+C:\ScolegBDD\ScolegBDD\ScolegBDD\bin\Debug\WebDriver.xml
+C:\ScolegBDD\ScolegBDD\ScolegBDD\obj\Debug\ScolegBDD.csproj.CoreCompileInputs.cache
+C:\ScolegBDD\ScolegBDD\ScolegBDD\obj\Debug\ScolegBDD.csproj.CopyComplete
+C:\ScolegBDD\ScolegBDD\ScolegBDD\obj\Debug\ScolegBDD.exe
+C:\ScolegBDD\ScolegBDD\ScolegBDD\obj\Debug\ScolegBDD.pdb
+C:\ScolegBDD\ScolegBDD\ScolegBDD\bin\Debug\DnsClient.dll
+C:\ScolegBDD\ScolegBDD\ScolegBDD\bin\Debug\ExtentReports.dll
+C:\ScolegBDD\ScolegBDD\ScolegBDD\bin\Debug\MongoDB.Bson.dll
+C:\ScolegBDD\ScolegBDD\ScolegBDD\bin\Debug\MongoDB.Driver.Core.dll
+C:\ScolegBDD\ScolegBDD\ScolegBDD\bin\Debug\MongoDB.Driver.dll
+C:\ScolegBDD\ScolegBDD\ScolegBDD\bin\Debug\RazorEngine.dll
+C:\ScolegBDD\ScolegBDD\ScolegBDD\bin\Debug\System.Buffers.dll
+C:\ScolegBDD\ScolegBDD\ScolegBDD\bin\Debug\System.Web.Razor.dll
+C:\ScolegBDD\ScolegBDD\ScolegBDD\bin\Debug\DnsClient.xml
+C:\ScolegBDD\ScolegBDD\ScolegBDD\bin\Debug\MongoDB.Bson.xml
+C:\ScolegBDD\ScolegBDD\ScolegBDD\bin\Debug\MongoDB.Driver.xml
+C:\ScolegBDD\ScolegBDD\ScolegBDD\bin\Debug\MongoDB.Driver.Core.xml
+C:\ScolegBDD\ScolegBDD\ScolegBDD\bin\Debug\Newtonsoft.Json.pdb
+C:\ScolegBDD\ScolegBDD\ScolegBDD\bin\Debug\RazorEngine.xml
+C:\ScolegBDD\ScolegBDD\ScolegBDD\bin\Debug\System.Web.Razor.xml
+C:\ScolegBDD\ScolegBDD\ScolegBDD\obj\Debug\ScolegBDD.csprojAssemblyReference.cache
+C:\Automatización Scoleg\ScolegBDD\bin\Debug\Data de Prueba Legal Partner.xlsx
+C:\Automatización Scoleg\ScolegBDD\bin\Debug\ScolegBDD.exe.config
+C:\Automatización Scoleg\ScolegBDD\bin\Debug\ScolegBDD.exe
+C:\Automatización Scoleg\ScolegBDD\bin\Debug\ScolegBDD.pdb
+C:\Automatización Scoleg\ScolegBDD\bin\Debug\ClosedXML.dll
+C:\Automatización Scoleg\ScolegBDD\bin\Debug\DnsClient.dll
+C:\Automatización Scoleg\ScolegBDD\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Automatización Scoleg\ScolegBDD\bin\Debug\ExtentReports.dll
+C:\Automatización Scoleg\ScolegBDD\bin\Debug\Gherkin.dll
+C:\Automatización Scoleg\ScolegBDD\bin\Debug\ImpromptuInterface.dll
+C:\Automatización Scoleg\ScolegBDD\bin\Debug\MongoDB.Bson.dll
+C:\Automatización Scoleg\ScolegBDD\bin\Debug\MongoDB.Driver.Core.dll
+C:\Automatización Scoleg\ScolegBDD\bin\Debug\MongoDB.Driver.dll
+C:\Automatización Scoleg\ScolegBDD\bin\Debug\Newtonsoft.Json.dll
+C:\Automatización Scoleg\ScolegBDD\bin\Debug\nunit.framework.dll
+C:\Automatización Scoleg\ScolegBDD\bin\Debug\RazorEngine.dll
+C:\Automatización Scoleg\ScolegBDD\bin\Debug\SeleniumExtras.PageObjects.dll
+C:\Automatización Scoleg\ScolegBDD\bin\Debug\SeleniumExtras.WaitHelpers.dll
+C:\Automatización Scoleg\ScolegBDD\bin\Debug\SpecFlow.Assist.Dynamic.dll
+C:\Automatización Scoleg\ScolegBDD\bin\Debug\SpecFlow.Plus.Excel.dll
+C:\Automatización Scoleg\ScolegBDD\bin\Debug\SpecFlow.Plus.Excel.SpecFlowPlugin.dll
+C:\Automatización Scoleg\ScolegBDD\bin\Debug\System.Buffers.dll
+C:\Automatización Scoleg\ScolegBDD\bin\Debug\System.Web.Razor.dll
+C:\Automatización Scoleg\ScolegBDD\bin\Debug\TechTalk.SpecFlow.dll
+C:\Automatización Scoleg\ScolegBDD\bin\Debug\WebDriver.dll
+C:\Automatización Scoleg\ScolegBDD\bin\Debug\WebDriver.Support.dll
+C:\Automatización Scoleg\ScolegBDD\bin\Debug\DnsClient.xml
+C:\Automatización Scoleg\ScolegBDD\bin\Debug\ImpromptuInterface.xml
+C:\Automatización Scoleg\ScolegBDD\bin\Debug\MongoDB.Bson.xml
+C:\Automatización Scoleg\ScolegBDD\bin\Debug\MongoDB.Driver.xml
+C:\Automatización Scoleg\ScolegBDD\bin\Debug\MongoDB.Driver.Core.xml
+C:\Automatización Scoleg\ScolegBDD\bin\Debug\Newtonsoft.Json.pdb
+C:\Automatización Scoleg\ScolegBDD\bin\Debug\Newtonsoft.Json.xml
+C:\Automatización Scoleg\ScolegBDD\bin\Debug\nunit.framework.xml
+C:\Automatización Scoleg\ScolegBDD\bin\Debug\RazorEngine.xml
+C:\Automatización Scoleg\ScolegBDD\bin\Debug\System.Web.Razor.xml
+C:\Automatización Scoleg\ScolegBDD\bin\Debug\WebDriver.xml
+C:\Automatización Scoleg\ScolegBDD\bin\Debug\WebDriver.Support.xml
+C:\Automatización Scoleg\ScolegBDD\obj\Debug\ScolegBDD.csproj.CoreCompileInputs.cache
+C:\Automatización Scoleg\ScolegBDD\obj\Debug\ScolegBDD.csproj.CopyComplete
+C:\Automatización Scoleg\ScolegBDD\obj\Debug\ScolegBDD.exe
+C:\Automatización Scoleg\ScolegBDD\obj\Debug\ScolegBDD.pdb
+C:\ScolegBDD\ScolegBDD\bin\Debug\Features\01. Transversal\01. Acceso\S01_SesionData.xlsx
+C:\ScolegBDD\ScolegBDD\bin\Debug\ScolegBDD.exe.config
+C:\ScolegBDD\ScolegBDD\bin\Debug\ScolegBDD.exe
+C:\ScolegBDD\ScolegBDD\bin\Debug\ScolegBDD.pdb
+C:\ScolegBDD\ScolegBDD\bin\Debug\ClosedXML.dll
+C:\ScolegBDD\ScolegBDD\bin\Debug\DnsClient.dll
+C:\ScolegBDD\ScolegBDD\bin\Debug\DocumentFormat.OpenXml.dll
+C:\ScolegBDD\ScolegBDD\bin\Debug\ExtentReports.dll
+C:\ScolegBDD\ScolegBDD\bin\Debug\Gherkin.dll
+C:\ScolegBDD\ScolegBDD\bin\Debug\ImpromptuInterface.dll
+C:\ScolegBDD\ScolegBDD\bin\Debug\MongoDB.Bson.dll
+C:\ScolegBDD\ScolegBDD\bin\Debug\MongoDB.Driver.Core.dll
+C:\ScolegBDD\ScolegBDD\bin\Debug\MongoDB.Driver.dll
+C:\ScolegBDD\ScolegBDD\bin\Debug\Newtonsoft.Json.dll
+C:\ScolegBDD\ScolegBDD\bin\Debug\nunit.framework.dll
+C:\ScolegBDD\ScolegBDD\bin\Debug\RazorEngine.dll
+C:\ScolegBDD\ScolegBDD\bin\Debug\SeleniumExtras.PageObjects.dll
+C:\ScolegBDD\ScolegBDD\bin\Debug\SeleniumExtras.WaitHelpers.dll
+C:\ScolegBDD\ScolegBDD\bin\Debug\SpecFlow.Assist.Dynamic.dll
+C:\ScolegBDD\ScolegBDD\bin\Debug\SpecFlow.Plus.Excel.dll
+C:\ScolegBDD\ScolegBDD\bin\Debug\SpecFlow.Plus.Excel.SpecFlowPlugin.dll
+C:\ScolegBDD\ScolegBDD\bin\Debug\System.Buffers.dll
+C:\ScolegBDD\ScolegBDD\bin\Debug\System.Web.Razor.dll
+C:\ScolegBDD\ScolegBDD\bin\Debug\TechTalk.SpecFlow.dll
+C:\ScolegBDD\ScolegBDD\bin\Debug\WebDriver.dll
+C:\ScolegBDD\ScolegBDD\bin\Debug\WebDriver.Support.dll
+C:\ScolegBDD\ScolegBDD\bin\Debug\DnsClient.xml
+C:\ScolegBDD\ScolegBDD\bin\Debug\ImpromptuInterface.xml
+C:\ScolegBDD\ScolegBDD\bin\Debug\MongoDB.Bson.xml
+C:\ScolegBDD\ScolegBDD\bin\Debug\MongoDB.Driver.xml
+C:\ScolegBDD\ScolegBDD\bin\Debug\MongoDB.Driver.Core.xml
+C:\ScolegBDD\ScolegBDD\bin\Debug\Newtonsoft.Json.pdb
+C:\ScolegBDD\ScolegBDD\bin\Debug\Newtonsoft.Json.xml
+C:\ScolegBDD\ScolegBDD\bin\Debug\nunit.framework.xml
+C:\ScolegBDD\ScolegBDD\bin\Debug\RazorEngine.xml
+C:\ScolegBDD\ScolegBDD\bin\Debug\System.Web.Razor.xml
+C:\ScolegBDD\ScolegBDD\bin\Debug\WebDriver.xml
+C:\ScolegBDD\ScolegBDD\bin\Debug\WebDriver.Support.xml
+C:\ScolegBDD\ScolegBDD\obj\Debug\ScolegBDD.csproj.CoreCompileInputs.cache
+C:\ScolegBDD\ScolegBDD\obj\Debug\ScolegBDD.csproj.CopyComplete
+C:\ScolegBDD\ScolegBDD\obj\Debug\ScolegBDD.exe
+C:\ScolegBDD\ScolegBDD\obj\Debug\ScolegBDD.pdb
+C:\AutomatizacionScoleg\ScolegBDD\bin\Debug\Features\01. Transversal\01. Acceso\S01_SesionData.xlsx
+C:\AutomatizacionScoleg\ScolegBDD\bin\Debug\ScolegBDD.exe.config
+C:\AutomatizacionScoleg\ScolegBDD\bin\Debug\ScolegBDD.exe
+C:\AutomatizacionScoleg\ScolegBDD\bin\Debug\ScolegBDD.pdb
+C:\AutomatizacionScoleg\ScolegBDD\bin\Debug\ClosedXML.dll
+C:\AutomatizacionScoleg\ScolegBDD\bin\Debug\DnsClient.dll
+C:\AutomatizacionScoleg\ScolegBDD\bin\Debug\DocumentFormat.OpenXml.dll
+C:\AutomatizacionScoleg\ScolegBDD\bin\Debug\ExtentReports.dll
+C:\AutomatizacionScoleg\ScolegBDD\bin\Debug\Gherkin.dll
+C:\AutomatizacionScoleg\ScolegBDD\bin\Debug\ImpromptuInterface.dll
+C:\AutomatizacionScoleg\ScolegBDD\bin\Debug\MongoDB.Bson.dll
+C:\AutomatizacionScoleg\ScolegBDD\bin\Debug\MongoDB.Driver.Core.dll
+C:\AutomatizacionScoleg\ScolegBDD\bin\Debug\MongoDB.Driver.dll
+C:\AutomatizacionScoleg\ScolegBDD\bin\Debug\Newtonsoft.Json.dll
+C:\AutomatizacionScoleg\ScolegBDD\bin\Debug\nunit.framework.dll
+C:\AutomatizacionScoleg\ScolegBDD\bin\Debug\RazorEngine.dll
+C:\AutomatizacionScoleg\ScolegBDD\bin\Debug\SeleniumExtras.PageObjects.dll
+C:\AutomatizacionScoleg\ScolegBDD\bin\Debug\SeleniumExtras.WaitHelpers.dll
+C:\AutomatizacionScoleg\ScolegBDD\bin\Debug\SpecFlow.Assist.Dynamic.dll
+C:\AutomatizacionScoleg\ScolegBDD\bin\Debug\SpecFlow.Plus.Excel.dll
+C:\AutomatizacionScoleg\ScolegBDD\bin\Debug\SpecFlow.Plus.Excel.SpecFlowPlugin.dll
+C:\AutomatizacionScoleg\ScolegBDD\bin\Debug\System.Buffers.dll
+C:\AutomatizacionScoleg\ScolegBDD\bin\Debug\System.Web.Razor.dll
+C:\AutomatizacionScoleg\ScolegBDD\bin\Debug\TechTalk.SpecFlow.dll
+C:\AutomatizacionScoleg\ScolegBDD\bin\Debug\WebDriver.dll
+C:\AutomatizacionScoleg\ScolegBDD\bin\Debug\WebDriver.Support.dll
+C:\AutomatizacionScoleg\ScolegBDD\bin\Debug\DnsClient.xml
+C:\AutomatizacionScoleg\ScolegBDD\bin\Debug\ImpromptuInterface.xml
+C:\AutomatizacionScoleg\ScolegBDD\bin\Debug\MongoDB.Bson.xml
+C:\AutomatizacionScoleg\ScolegBDD\bin\Debug\MongoDB.Driver.xml
+C:\AutomatizacionScoleg\ScolegBDD\bin\Debug\MongoDB.Driver.Core.xml
+C:\AutomatizacionScoleg\ScolegBDD\bin\Debug\Newtonsoft.Json.pdb
+C:\AutomatizacionScoleg\ScolegBDD\bin\Debug\Newtonsoft.Json.xml
+C:\AutomatizacionScoleg\ScolegBDD\bin\Debug\nunit.framework.xml
+C:\AutomatizacionScoleg\ScolegBDD\bin\Debug\RazorEngine.xml
+C:\AutomatizacionScoleg\ScolegBDD\bin\Debug\System.Web.Razor.xml
+C:\AutomatizacionScoleg\ScolegBDD\bin\Debug\WebDriver.xml
+C:\AutomatizacionScoleg\ScolegBDD\bin\Debug\WebDriver.Support.xml
+C:\AutomatizacionScoleg\ScolegBDD\obj\Debug\ScolegBDD.csproj.CoreCompileInputs.cache
+C:\AutomatizacionScoleg\ScolegBDD\obj\Debug\ScolegBDD.csproj.CopyComplete
+C:\AutomatizacionScoleg\ScolegBDD\obj\Debug\ScolegBDD.exe
+C:\AutomatizacionScoleg\ScolegBDD\obj\Debug\ScolegBDD.pdb
+C:\AutomatizacionScoleg\ScolegBDD\obj\Debug\ScolegBDD.csprojAssemblyReference.cache
